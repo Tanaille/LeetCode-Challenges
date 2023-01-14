@@ -52,7 +52,7 @@ namespace _2._Add_Two_Numbers
         public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             // Create variables and lists to hold the digits and reversed numbers
-            // Note: BigInteger objects are used due to some LeetCode test cases where
+            // Note: BigInteger objects and unsigned long types are used due to some LeetCode test cases where
             // the answers are massive integer values that exceed the maximum lengths of all
             // integer and floating point types. There are other more memory efficient ways to
             // work with those huge integers but this method is simple and fast (in terms of execution time)
@@ -91,12 +91,12 @@ namespace _2._Add_Two_Numbers
             int[] digits = answer.ToString().Select(x => int.Parse(x.ToString())).ToArray();
             Array.Reverse(digits);
 
-            // Create a new ListNode head for the linked list (initialized with the first index in the digits array),
+            // Create a new ListNode (l3) head for the return linked list (initialized with the first index in the digits array),
             // as well as a node currNode representing the current node (assigned to the head of l3).
             ListNode l3 = new ListNode(digits[0]);
             ListNode currNode = l3;
 
-            // For each index in the digits array (starting at index 1), create a new ListNode and assing index[i] to its value.
+            // For each index in the digits array (starting at index 1), create a new ListNode and assign index[i] to its value.
             // currNode keeps track of the current node and enables easy iteration over the linked list.
             for (int i = 1; i < digits.Length; i++)
             {
