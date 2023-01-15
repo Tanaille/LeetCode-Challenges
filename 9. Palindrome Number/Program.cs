@@ -12,18 +12,17 @@
     {
         public static bool IsPalindrome(int x)
         {
-            bool isPalindrome = true;
             string number = x.ToString();
 
             for (int i = 0, j = (number.Length - 1); i < number.Length; i++)
             {
                 if (number[i] != number[j])
-                    isPalindrome = false;
+                    return false;
 
                 j--;
             }
 
-            return isPalindrome;
+            return true;
         }
     }
 }
