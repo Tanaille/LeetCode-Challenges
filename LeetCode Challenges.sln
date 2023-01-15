@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Longest Common Prefix",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Roman to Integer", "13. Roman to Integer\13. Roman to Integer.csproj", "{F8D09676-2B46-460B-9500-90AFB1EB54E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Valid Parentheses", "20. Valid Parentheses\20. Valid Parentheses.csproj", "{2CDD6C69-C419-45D0-B444-3F1F9ADA8EFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F8D09676-2B46-460B-9500-90AFB1EB54E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8D09676-2B46-460B-9500-90AFB1EB54E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8D09676-2B46-460B-9500-90AFB1EB54E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDD6C69-C419-45D0-B444-3F1F9ADA8EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDD6C69-C419-45D0-B444-3F1F9ADA8EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDD6C69-C419-45D0-B444-3F1F9ADA8EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDD6C69-C419-45D0-B444-3F1F9ADA8EFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
